@@ -5,6 +5,7 @@ Welcome to the Virtual Assistant program! This program uses the GPT-3 language m
 ## Getting Started
 
 To use the Virtual Assistant, you will need to have an API key for the GPT-3 language model. You can sign up for a GPT-3 API key at the [OpenAI](https://openai.com/) website.
+###### Hint: replace "os.getenv("OPENAI_API_KEY")" with your API key
 
 Once you have obtained your API key, you will need to install the necessary dependencies for the program. The Virtual Assistant program requires the following packages:
 
