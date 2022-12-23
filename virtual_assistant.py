@@ -9,7 +9,7 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice',voices[0].id)
 
 def gpt3(texts):
-    openai.api_key = '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'
+    openai.api_key = os.getenv("OPENAI_API_KEY")
     response = openai.Completion.create(
     model="text-davinci-002",
     prompt = texts,
